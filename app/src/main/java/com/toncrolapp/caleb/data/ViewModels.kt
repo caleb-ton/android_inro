@@ -1,5 +1,4 @@
-package com.toncrolapp.caleb.model
-
+package com.toncrolapp.caleb.data
 
 import androidx.compose.material3.Icon
 import androidx.compose.ui.graphics.Color
@@ -10,7 +9,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
 class DashboardViewModel: ViewModel(){
-    val _stats=-MutableStateFlow(
+    val _stats= MutableStateFlow(
         listOf(
             DashboardStat("Revenue","12000",Icon.Default.Person,Color.Magenta),
             DashboardStat("User","1456",Icon.Default.Person,Color.Cyan)

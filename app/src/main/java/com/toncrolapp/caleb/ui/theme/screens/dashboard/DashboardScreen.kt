@@ -25,8 +25,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.toncrolapp.caleb.DashboardViewModel
-import com.toncrolapp.caleb.data.DashboardStat
-import com.toncrolapp.caleb.data.QuickAction
 
 @Composable
 fun Dashboard_Screen(viewModel: DashboardViewModel=android.lifecycle.viewmodels.compose.viewModel()) {

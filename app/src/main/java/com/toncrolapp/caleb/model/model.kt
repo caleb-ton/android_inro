@@ -1,4 +1,4 @@
-package com.toncrolapp.caleb.data
+package com.toncrolapp.caleb.model
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
